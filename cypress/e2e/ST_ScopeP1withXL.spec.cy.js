@@ -138,7 +138,7 @@ describe('Scope Tool Testing - Home Page', () => {
         cy.get('body.modal-open:nth-child(2) div.container:nth-child(2) main.my-4 div.modal.show:nth-child(6) div.modal-dialog.modal-xl div.modal-content div.modal-header > button.btn-close').click()
 
         //Video 4
-        cy.wait(500)
+        //cy.wait(500)
         cy.get('#customerperspective').click()
         cy.wait(500)
         cy.get('body.modal-open:nth-child(2) div.container:nth-child(2) main.my-4 div.modal.show:nth-child(10) div.modal-dialog.modal-xl div.modal-content div.modal-body div.embed-responsive.embed-responsive-16by9 div.video-js.vjs-16-9.vjs-paused.customerperspectivehelp_container-dimensions.vjs-controls-enabled.vjs-workinghover.vjs-v7.vjs-user-active button.vjs-big-play-button > span.vjs-icon-placeholder').click({ force: true })
