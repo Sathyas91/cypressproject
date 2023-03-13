@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^12.7.0",
+    "cypress-file-upload": "^5.0.8",
+    "node-xlsx": "^0.21.0"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1"
   }
 }
